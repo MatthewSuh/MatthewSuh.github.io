@@ -92,8 +92,8 @@ nav li a:hover {
 
 .aboutContent {
     margin: 100px;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 .paragraph {
