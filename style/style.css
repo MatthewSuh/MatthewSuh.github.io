@@ -1,0 +1,153 @@
+html,
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#background {
+    width: 100%;
+    height: auto;
+    margin-top: 65px;
+    padding: 0px;
+    opacity: 0.3;
+}
+
+.image1 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.image2 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    opacity: .5;
+    color: black;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+#name {
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 10px;
+}
+
+#title {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+header {
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: fixed;
+    top: 0;
+    border-bottom: rgb(255, 69, 69) 5px solid;
+    z-index: 1;
+}
+
+nav li {
+    float: center;
+    text-align: center;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 14px 16px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}
+
+nav li a em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+#MatthewSuh {
+    font-family: Georgia, serif;
+}
+
+nav li a:hover {
+    color: rgba(255, 91, 91, 0.637);
+}
+
+#profile {
+    width: 25%;
+    height: auto;
+}
+
+.aboutContent {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragraph {
+    width: 800px;
+    margin-left: 50px;
+    font-size: 18px
+}
+
+#firstParagraph {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.nextParagraphs {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.showcaseContent {
+    margin: 100px;
+}
+
+#cssArt1 {
+    margin-right: 50px;
+}
+
+.cssArt {
+    margin-top: 50px;
+}
+
+.contactContent {
+    margin: 50px 0 137.5px 100px;
+}
+
+.qualificationsContent {
+    margin: 100px;
+}
+
+#resume {
+    margin-top: 50px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    padding: 3px 0 3px 0;
+    height: auto;
+    bottom: 0;
+    background-color: rgba(255, 50, 50, 0.548);
+}
+
+#footerContent,
+#footerContent a {
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}
