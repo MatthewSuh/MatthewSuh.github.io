@@ -58,10 +58,8 @@ header {
 }
 
 nav li {
-    float: center;
     text-align: center;
     display: inline;
-    margin-top: 10px;
     margin-left: 40px;
     padding: 14px 16px;
 }
@@ -78,7 +76,7 @@ nav li a em {
 }
 
 #MatthewSuh {
-    font-family: Georgia, serif;
+    color:rgb(255,69,69);
 }
 
 nav li a:hover {
@@ -86,14 +84,14 @@ nav li a:hover {
 }
 
 #profile {
-    width: 310px;
-    height: 361px;
+    max-width: 300px;
+    max-height:349px;
 }
 
 .aboutContent {
     margin: 100px;
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .paragraph {
