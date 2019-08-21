@@ -49,12 +49,43 @@ nav a{
 .resumeNav{
     grid-column-start:8;
 }
-.grid {
+/* .grid{
     display: grid;
     grid-template-columns: 1fr 5fr 5fr 1fr;
+    grid-auto-columns: minmax(20px, 1fr) minmax(300px, 5fr) minmax(300px, 5fr) minmax(20px, 1fr);
+    grid-auto-columns: minmax(300px, 1fr);
     grid-auto-rows: auto;
     grid-column-gap: 3rem;
     grid-row-gap: 4rem;
+} */
+
+.flexTable{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.row1, .row2{
+    display:flex;
+    flex-direction:wrap;
+    width:100%;
+    padding-bottom:75px;
+}
+
+.column1, .column2{
+    display:flex;
+    flex-direction:column;
+    flex-basis:100%;
+    flex:1;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.column1{
+    margin-left:150px;
+}
+
+.column2{
+    margin-right:150px;
 }
 
 .card {
@@ -76,17 +107,17 @@ nav a{
     transition-duration: 10s, 0s; */
 }
 
-#alarmCard, #nameonicCard, #cssCard{
-   grid-column-start:2;
+/* #alarmCard, #nameonicCard, #cssCard{
+   grid-column-start:1;
 }
 
 #politicoCard, #tastyCard{
-    grid-column-start:3;
+    grid-column-start:2;
 }
 
 #politicoCard{
     grid-row-start:1;
-}
+} */
 
 #politicoImage {
     width: 100%;
