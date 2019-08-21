@@ -11,34 +11,84 @@ body {
 .nav {
     background-color: rgba(255, 255, 255, 0.884);
     overflow: hidden;
-    padding: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 50px;
+    padding: 35px 35px 75px 35px;
     /* top right bottom left */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
 }
 
 nav a {
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
+    /* float: left; */
+    /* text-align: center; */
+    /* padding: 14px 16px; */
     text-decoration: none;
     font-size: 20px;
     color: black;
 
 }
 
-.rightNav {
-    float: right;
-    display: flex;
-    flex-direction: row;
+.nameNav {
+    font-size: 25px;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+/* vvvv Hover Highlight vvvv */
+
+.rightAlign {
+    list-style: none;
+    font-size: 22px;
+    text-align: right;
 }
+
+.navLink {
+    position: relative;
+    display: inline;
+}
+
+.navLink a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+.highlight {
+    visibility: hidden;
+    z-index: -1;
+    display: block;
+    width: calc(100% - 15px);
+    height: 15px;
+    background: #0088CC;
+    position: absolute;
+    left: 5px;
+    bottom: -5px;
+}
+
+li a:hover {
+    visibility: visible;
+    color: #0088CC;
+}
+
+li a:hover~span {
+    visibility: visible;
+    animation: ul 0.3s ease-out;
+    background: #333;
+}
+
+@keyframes ul {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: calc(100% - 15px);
+    }
+}
+
+/* ^^^^ Hover Highlight ^^^^ */
+
+
+/* vvvv Tooltip vvvv */
 
 /* change after 820px wide */
 #tooltip {
@@ -81,58 +131,8 @@ nav a {
     transition: opacity 0.3s;
 }
 
-/* 
-.portfolioNav{
-    grid-column-start:6;
-}
+/* ^^^^ Tooltip ^^^^ */
 
-.aboutNav{
-    grid-column-start:7;
-}
-
-.resumeNav{
-    grid-column-start:8;
-} */
-
-/* .currentPage{
-  background-image: linear-gradient(to right, transparent 50%, green 50%);
-  background-origin: 0;
-  background-size: 200% 50%;
-  background-repeat: repeat-x;
-  background-position: 0 100%;
-  transition: background-position 0.5s;
-} */
-/* nav a:hover {
-        /* position: relative; */
-/* background-image: linear-gradient(to right, transparent 50%, #9eebcf 50%);
-        background-size: 200% 30%; */
-/* background-origin: */
-/* background-size: 100px 30px; */
-/* background-repeat: no-repeat;
-        background-position: 100%;
-        transition: background-position 0.2s ease-in; */
-/* transition-delay: 0.5s; */
-/* } */
-
-/* .currentPage:after {
-        display:block;
-        content: '';
-        border-bottom: solid 3px #019fb6;  
-        transform: scaleX(0);  
-        transform-origin: 100% 50%;
-        transition: transform 250ms ease-in-out;
-      }
-    .currentPage:hover:after { transform: scaleX(1); } */
-
-/* .grid{
-    display: grid;
-    grid-template-columns: 1fr 5fr 5fr 1fr;
-    grid-auto-columns: minmax(20px, 1fr) minmax(300px, 5fr) minmax(300px, 5fr) minmax(20px, 1fr);
-    grid-auto-columns: minmax(300px, 1fr);
-    grid-auto-rows: auto;
-    grid-column-gap: 3rem;
-    grid-row-gap: 4rem;
-} */
 
 .flexTable {
     display: flex;
