@@ -63,7 +63,7 @@ nav a {
     background: #4AA3A2;
     position: absolute;
     left: 5px;
-    bottom: -5px;
+    bottom: -2px;
 }
 
 .currentHighlight {
@@ -74,7 +74,7 @@ nav a {
     background: #4AA3A2;
     position: absolute;
     left: 5px;
-    bottom: -5px;
+    bottom: -2px;
      color: #4AA3A2;
 }
 
