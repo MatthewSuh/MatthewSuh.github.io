@@ -12,6 +12,7 @@ html, body{
     padding: 20px;
     padding-left:35px;
     padding-right:35px;
+    padding-bottom:50px;
     /* top right bottom left */
 }
 
@@ -29,6 +30,14 @@ nav a{
     display:flex;
     flex-direction:row;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
 .portfolioNav{
     grid-column-start:6;
 }
