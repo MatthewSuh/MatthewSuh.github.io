@@ -90,7 +90,7 @@ nav a{
 
 .card {
     border: 2px solid #ffffff;
-    box-shadow: 0 2px 33px 0 rgba(0, 0, 0, 0.26);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.26);
     border-radius: 20px;
     top:0px;
     position:relative;
@@ -101,6 +101,7 @@ nav a{
 .card:hover{
     position: relative;
     top:-10px;
+    box-shadow: 0 2px 33px 0 rgba(0, 0, 0, 0.26);
     transition: all 0.2s ease 0s;
      /* start out at position 0 */
     /* transition-property: top, box-shadow
