@@ -6,6 +6,7 @@
 html,
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(66, 66, 66);
 }
 
 .nav {
@@ -23,8 +24,9 @@ nav a {
     /* text-align: center; */
     /* padding: 14px 16px; */
     text-decoration: none;
+    font-weight:bold;
     font-size: 20px;
-    color: black;
+    color: rgb(66, 66, 66);
 
 }
 
@@ -47,32 +49,44 @@ nav a {
 
 .navLink a {
     text-decoration: none;
-    color: #333;
+    /* color: #333; */
     display: inline-block;
     padding: 0 10px 0 10px;
 }
 
-.highlight {
+.highlight{
     visibility: hidden;
     z-index: -1;
     display: block;
     width: calc(100% - 15px);
     height: 15px;
-    background: #0088CC;
+    background: #4AA3A2;
     position: absolute;
     left: 5px;
     bottom: -5px;
 }
 
+.currentHighlight {
+    z-index: -1;
+    display: block;
+    width: calc(100% - 15px);
+    height: 15px;
+    background: #4AA3A2;
+    position: absolute;
+    left: 5px;
+    bottom: -5px;
+     color: #4AA3A2;
+}
+
 li a:hover {
     visibility: visible;
-    color: #0088CC;
+    color: #4AA3A2;
 }
 
 li a:hover~span {
     visibility: visible;
     animation: ul 0.3s ease-out;
-    background: #333;
+    background: #4AA3A2;
 }
 
 @keyframes ul {
@@ -83,6 +97,10 @@ li a:hover~span {
     100% {
         width: calc(100% - 15px);
     }
+}
+
+.current{
+    color: #4AA3A2;
 }
 
 /* ^^^^ Hover Highlight ^^^^ */
@@ -103,20 +121,21 @@ li a:hover~span {
 
 #tooltip #tooltipText {
     visibility: hidden;
-    width: 250px;
+    width: 220px;
     background-color: #555;
     color: #fff;
     text-align: left;
     padding: 5px 0;
     padding-left: 15px;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight:normal;
 
     /* Position the tooltip text */
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    top: -2px;
+    top: -1px;
     left: 105%;
 
     /* Fade in tooltip */
