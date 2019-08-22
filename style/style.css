@@ -247,6 +247,50 @@ li a:hover~span {
 
 .contentContainer{
     display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.logos{
+    width:10%;
+    height:auto;
+}
+
+.mockup{
+    width:100%;
+    height:auto;
+}
+
+h3{
+    font-size:20px;
+}
+
+.bodyText{
+    width:50%;
+    font-size:16px;
+    text-align:left;
+    list-style-position:inside;
+}
+
+.bodyText p{
+    padding-bottom:20px;
+
+}
+
+.imageContainer{
+    width:70%;
+}
+
+.imageGroupHorizontal img{
+    width:100%;
+}
+
+.imageGroupHorizontal{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows:auto;
+    grid-gap:1rem;
 }
 
 /* vvvv Hover Highlight Bottom Nav vvvv */
