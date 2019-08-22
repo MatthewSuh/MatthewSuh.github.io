@@ -244,6 +244,91 @@ li a:hover~span {
     text-decoration-color: #4AA3A2;
 }
 
+/* vvvv Hover Highlight Bottom Nav vvvv */
+
+/* .rightAlign {
+    list-style: none;
+    font-size: 22px;
+    text-align: right;
+} */
+
+.bottomGrid{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.bottomNav{
+    display:inline-block;
+    position:relative;
+    
+}
+
+.bottomNav a {
+    text-decoration: none;
+    color:inherit;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+.highlightB {
+    visibility: hidden;
+    z-index: -1;
+    display: block;
+    width: calc(100% - 15px);
+    height: 15px;
+    background: rgba(74, 163, 161, 0.103);
+    position: absolute;
+    left: 5px;
+    bottom: -2px;
+}
+
+.currentHighlightB {
+    z-index: -1;
+    display: block;
+    width: calc(100% - 15px);
+    height: 15px;
+    background: rgba(74, 163, 161, 0.103);
+    position: absolute;
+    left: 5px;
+    bottom: -4px;
+    color: #4AA3A2;
+}
+
+.bottomNav a:hover {
+    visibility: visible;
+    color: #4AA3A2;
+}
+
+.bottomNav a:hover~span {
+    visibility: visible;
+    animation: ul 0.3s ease-out;
+    background: rgba(74, 163, 161, 0.103);
+}
+
+@keyframes ul {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: calc(100% - 15px);
+    }
+}
+
+.currentB {
+    color: #4AA3A2;
+}
+
+/* ^^^^ Hover Highlight Bottom Nav ^^^^ */
+.bottomNav span{
+    z-index:-1;
+}
+
+.bottomNav a{
+    z-index:1;
+}
+
 footer{
     margin-top:100px;
     margin-bottom:25px;
