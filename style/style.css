@@ -24,7 +24,7 @@ nav a {
     /* text-align: center; */
     /* padding: 14px 16px; */
     text-decoration: none;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 20px;
     color: rgb(66, 66, 66);
 
@@ -54,7 +54,7 @@ nav a {
     padding: 0 10px 0 10px;
 }
 
-.highlight{
+.highlight {
     visibility: hidden;
     z-index: -1;
     display: block;
@@ -75,7 +75,7 @@ nav a {
     position: absolute;
     left: 5px;
     bottom: -2px;
-     color: #4AA3A2;
+    color: #4AA3A2;
 }
 
 li a:hover {
@@ -99,7 +99,7 @@ li a:hover~span {
     }
 }
 
-.current{
+.current {
     color: #4AA3A2;
 }
 
@@ -122,14 +122,14 @@ li a:hover~span {
 #tooltip #tooltipText {
     visibility: hidden;
     width: 220px;
-    background-color: #555;
+    background-color: #4AA3A2;
     color: #fff;
     text-align: left;
     padding: 5px 0;
     padding-left: 15px;
-    border-radius: 6px;
+    border-radius: 20px;
     font-size: 14px;
-    font-weight:normal;
+    font-weight: normal;
 
     /* Position the tooltip text */
     /* Position the tooltip */
@@ -237,4 +237,15 @@ li a:hover~span {
 .projectDescription {
     font-size: 20px;
     padding-bottom: 25px;
+}
+
+.text a{
+    color:inherit;
+    text-decoration:none;
+}
+
+footer{
+    margin-top:100px;
+    margin-bottom:25px;
+    text-align:center;
 }
