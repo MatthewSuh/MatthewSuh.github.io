@@ -153,6 +153,8 @@ li a:hover~span {
 /* ^^^^ Tooltip ^^^^ */
 
 
+/* vvvv Portfolio Cards vvvv */
+
 .flexTable {
     display: flex;
     flex-wrap: wrap;
@@ -244,6 +246,10 @@ li a:hover~span {
     text-decoration-color: #4AA3A2;
 }
 
+/* ^^^^ Portfolio Cards ^^^^ */
+
+/* vvvv Main Content vvvv */
+
 
 .contentContainer{
     display:flex;
@@ -280,6 +286,8 @@ h3{
 
 .imageContainer{
     width:70%;
+    align-items:center;
+    justify-content:center;
 }
 
 .imageGroupHorizontal img{
@@ -292,6 +300,8 @@ h3{
     grid-auto-rows:auto;
     grid-gap:1rem;
 }
+
+/* ^^^^ Main Content ^^^^ */
 
 /* vvvv Hover Highlight Bottom Nav vvvv */
 
