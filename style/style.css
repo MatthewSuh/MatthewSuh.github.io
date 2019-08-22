@@ -290,6 +290,10 @@ h3{
     justify-content:center;
 }
 
+.imageContainer img{
+    width:100%;
+}
+
 .imageGroupHorizontal img{
     width:100%;
 }
