@@ -12,7 +12,7 @@ body {
 .nav {
     background-color: rgba(255, 255, 255, 0.884);
     overflow: hidden;
-    padding: 35px 35px 75px 35px;
+    margin: 35px 50px 75px 50px;
     /* top right bottom left */
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -241,11 +241,15 @@ li a:hover~span {
 
 .text a{
     color:inherit;
-    text-decoration:none;
+    text-decoration-color: #4AA3A2;
 }
 
 footer{
     margin-top:100px;
     margin-bottom:25px;
     text-align:center;
+}
+
+footer p{
+    padding-top:10px;
 }
