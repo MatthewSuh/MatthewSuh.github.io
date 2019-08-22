@@ -244,13 +244,12 @@ li a:hover~span {
     text-decoration-color: #4AA3A2;
 }
 
-/* vvvv Hover Highlight Bottom Nav vvvv */
 
-/* .rightAlign {
-    list-style: none;
-    font-size: 22px;
-    text-align: right;
-} */
+.contentContainer{
+    display:flex;
+}
+
+/* vvvv Hover Highlight Bottom Nav vvvv */
 
 .bottomGrid{
     display:flex;
@@ -266,27 +265,31 @@ li a:hover~span {
 
 .bottomNav a {
     text-decoration: none;
-    color:inherit;
+    color: rgba(66, 66, 66);
     display: inline-block;
     padding: 0 10px 0 10px;
+}
+
+.unselected{
+    color:rgba(66, 66, 66, 0.733);
 }
 
 .highlightB {
     visibility: hidden;
     z-index: -1;
     display: block;
-    width: calc(100% - 15px);
+    width: calc(100% - 13px);
     height: 15px;
     background: rgba(74, 163, 161, 0.103);
     position: absolute;
     left: 5px;
-    bottom: -2px;
+    bottom: -4px;
 }
 
 .currentHighlightB {
     z-index: -1;
     display: block;
-    width: calc(100% - 15px);
+    width: calc(100% - 13px);
     height: 15px;
     background: rgba(74, 163, 161, 0.103);
     position: absolute;
@@ -317,7 +320,8 @@ li a:hover~span {
 }
 
 .currentB {
-    color: #4AA3A2;
+    color: rgb(66, 66, 66);
+
 }
 
 /* ^^^^ Hover Highlight Bottom Nav ^^^^ */
