@@ -25,7 +25,7 @@ nav a {
     /* padding: 14px 16px; */
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     color: rgb(66, 66, 66);
 
 }
@@ -231,6 +231,7 @@ li a:hover~span {
     margin-left: 15px;
 }
 
+
 .projectType {
     font-weight: bold;
     font-size: 23px;
@@ -251,6 +252,10 @@ li a:hover~span {
 
 /* vvvv Main Content vvvv */
 
+.pageContainer{
+    display:flex;
+    flex-direction:row;
+}
 
 .contentContainer{
     display:flex;
@@ -269,10 +274,6 @@ li a:hover~span {
     height:auto;
 }
 
-h3{
-    font-size:20px;
-}
-
 .bodyText{
     width:50%;
     font-size:16px;
@@ -281,7 +282,7 @@ h3{
 }
 
 .bodyText p{
-    padding-bottom:20px;
+    padding-bottom:10px;
 
 }
 
@@ -298,6 +299,7 @@ h3{
 
 .imageContainer img{
     width:100%;
+    border-radius:10px;
 }
 
 .imageGroupHorizontal img{
@@ -325,8 +327,29 @@ h3{
     grid-gap:1rem;
 }
 
-p, h1, h2, h3, h4{
+h1{
+    color:#4AA3A2;
+    font-size:28px;
     margin-bottom:25px;
+}
+
+h2{
+    font-size:23px;
+    color:rgba(100,100,100);
+    margin-bottom:25px;
+}
+
+h3{
+    font-size:23px;
+    color: #4AA3A2;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+h4{
+    font-size:20px;
+    color: #4AA3A2;
+    font-weight:normal;
 }
 
 article ul{
@@ -396,13 +419,13 @@ article ul{
     background: rgba(74, 163, 161, 0.349);
 }
 
-@keyframes ul {
+@keyframes ul{
     0% {
         width: 0;
     }
 
     100% {
-        width: calc(100% - 15px);
+        width: calc(100% - 13px);
     }
 }
 
@@ -442,10 +465,6 @@ footer p{
     position: relative;
 }
 
-p {
-    margin: 0 0 15px 0;
-}
-
 /* p:first-child {
     background: #fffcde;
     padding: 10px;
@@ -465,11 +484,30 @@ p {
 } */
 
 #sidebar {
-    width: 190px;
+    width: 230px;
     position: fixed;
-    left: -5%;
+    left: -6%;
     top: 200px;
     margin: 0 0 0 110px;
 }
 
+.leftNavStyle{
+list-style-type: none;}
+
+.spacer{
+    padding-bottom:10px;
+}
+
+@media (max-width: 1180px){
+    #sidebar{
+        width:190px;
+        left:-10%;
+    }
+}
+
+@media (max-width:900px){
+    #sidebar{
+        visibility:hidden;
+    }
+}
 /* ^^^^ Left Nav ^^^^ */
