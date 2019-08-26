@@ -252,6 +252,11 @@ li a:hover~span {
 
 /* vvvv Main Content vvvv */
 
+hr{
+    margin-top:35px;
+    margin-bottom:45px;
+    color:#4AA3A2;
+}
 .pageContainer {
     display: flex;
     flex-direction: row;
@@ -269,9 +274,10 @@ li a:hover~span {
     height: auto;
 }
 
-.mockup {
+#mockup {
     width: 100%;
     height: auto;
+    margin-top:0;
 }
 
 .bodyText {
@@ -287,8 +293,13 @@ li a:hover~span {
 }
 
 .bodyText li {
-    text-indent: 40px;
+    /* text-indent: 40px; */
     padding-bottom: 10px;
+}
+
+.bodyText ol, ul{
+    padding-left: 65px;
+    list-style-position: outside;
 }
 
 .logos {
@@ -296,6 +307,14 @@ li a:hover~span {
 }
 
 .imageContainer {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top:25px;
+}
+
+.imageContainerTop{
     width: 60%;
     align-items: center;
     justify-content: center;
@@ -332,6 +351,10 @@ li a:hover~span {
     grid-gap: 1rem;
 }
 
+.sectionEnd{
+    margin-bottom:25px;
+}
+
 mark {
     background-color: rgba(74, 163, 161, 0.363);
     color: rgba(66, 66, 66);
@@ -363,7 +386,13 @@ h4 {
 }
 
 article ul {
+    margin-top:10px;
     margin-bottom: 25px;
+}
+
+article ul a{
+    color:rgba(66,66,66);
+    text-decoration-color:#4AA3A2;
 }
 
 
@@ -375,6 +404,7 @@ article ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:60px;
 }
 
 .bottomNav {
@@ -456,7 +486,7 @@ article ul {
 
 /* vvvv Footer vvvv */
 .footer {
-    margin-top: 100px;
+    margin-top: 75px;
     margin-bottom: 25px;
     text-align: center;
 }
@@ -484,9 +514,9 @@ footer p {
 } */
 
 #sidebar {
-    width: 250px;
+    width: 258px;
     position: fixed;
-    left: -8%;
+    left: -7%;
     top: 200px;
     margin: 0 0 0 110px;
 }
@@ -498,18 +528,19 @@ footer p {
 
 .leftNavStyle a{
     color: rgba(66,66,66);
-    /* text-decoration:none; */
+    text-decoration:none;
 }
 
 .spacer {
     padding-bottom: 10px;
 }
 
-.active {
+.active{
     font-weight:bold;
+    color: #4AA3A2 !important;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1280px) {
     #sidebar {
         width: 190px;
         left: -10%;
