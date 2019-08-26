@@ -498,7 +498,7 @@ footer p {
 
 .leftNavStyle a{
     color: rgba(66,66,66);
-    text-decoration:none;
+    /* text-decoration:none; */
 }
 
 .spacer {
@@ -506,7 +506,7 @@ footer p {
 }
 
 .active {
-    color: red;
+    font-weight:bold;
 }
 
 @media (max-width: 1180px) {
