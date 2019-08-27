@@ -219,7 +219,7 @@ li a:hover~span {
     grid-row-start:1;
 } */
 
-#politicoImage {
+#politicoImage, #cssArtImage, #tastyMealImage {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -402,6 +402,17 @@ article ul a{
 article ul a:hover{
     color: #4AA3A2;
 }
+
+.titleText{
+    text-align:center;
+}
+
+.codepenContainer{
+    /* top right bottom left */
+    margin:50px 150px 50px 150px;
+}
+
+
 
 
 /* ^^^^ Main Content ^^^^ */
