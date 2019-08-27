@@ -225,6 +225,11 @@ li a:hover~span {
     border-top-right-radius: 20px;
 }
 
+#tastyMealImage{
+    padding-top:54px;
+    padding-bottom:55px;
+}
+
 .projectType,
 .projectDescription {
     padding: 10px;
