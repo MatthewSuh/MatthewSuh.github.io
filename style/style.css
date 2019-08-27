@@ -595,3 +595,24 @@ footer p {
 }
 
 /* ^^^^ Left Nav ^^^^ */
+
+
+.aboutContainer{
+    width:80%;
+    display:flex;
+    flex-direction:column;
+}
+
+.aboutFlex{
+    display:flex;
+    flex-direction:row;
+}
+
+.aboutContainer img{
+    width:50%;
+    height:auto;
+}
+
+.aboutContent{
+
+}
