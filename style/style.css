@@ -221,7 +221,8 @@ li a:hover~span {
 
 #politicoImage,
 #cssArtImage,
-#tastyMealImage {
+#tastyMealImage,
+#nameonicImage {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -231,6 +232,10 @@ li a:hover~span {
     padding-top: 54px;
     padding-bottom: 55px;
 }
+
+/* .cardSpacer{
+    padding-bottom:45px;
+} */
 
 .projectType,
 .projectDescription {
@@ -414,6 +419,7 @@ article ul a:hover {
 
 .titleText {
     text-align: center;
+    width:60%;
 }
 
 .codepenContainer {
