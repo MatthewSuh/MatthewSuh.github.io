@@ -228,10 +228,10 @@ li a:hover~span {
     border-top-right-radius: 20px;
 }
 
-#tastyMealImage {
+/* #tastyMealImage {
     padding-top: 54px;
     padding-bottom: 55px;
-}
+} */
 
 /* .cardSpacer{
     padding-bottom:45px;
@@ -430,6 +430,7 @@ article ul a:hover {
     /* top right bottom left */
     margin: 50px 150px 50px 150px;
 }
+
 
 
 
