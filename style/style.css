@@ -431,8 +431,14 @@ article ul a:hover {
     margin: 50px 150px 50px 150px;
 }
 
+.italic{
+    font-style:italic;
+}
 
-
+.bold{
+    font-style:normal;
+    font-weight:bold;
+}
 
 
 /* ^^^^ Main Content ^^^^ */
@@ -560,21 +566,16 @@ footer p {
 
 /* vvvv Left Nav vvvv */
 
-#sidebar ul {
+.sidebar ul {
     padding: 10px;
 }
 
-#sidebar li {
+.sidebar li {
     margin: 0 0 0 20px;
 }
 
-/* #main {
-    width: 390px;
-    float: left;
-} */
-
-#sidebar {
-    width: 258px;
+.sidebar {
+    width: 270px;
     position: fixed;
     left: -7%;
     top: 200px;
@@ -605,26 +606,26 @@ footer p {
 }
 
 @media (max-width: 1280px) {
-    #sidebar {
+    .sidebar {
         width: 190px;
         left: -10%;
     }
 }
 
 @media (max-width:900px) {
-    #sidebar {
+    .sidebar {
         visibility: hidden;
     }
 }
 
 @media(max-height: 680px) {
-    #sidebar {
+    .sidebar {
         top: 75px;
     }
 }
 
 @media(max-height:540px) {
-    #sidebar {
+    .sidebar {
         visibility: hidden;
     }
 }
