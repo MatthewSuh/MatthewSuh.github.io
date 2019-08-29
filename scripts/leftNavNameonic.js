@@ -2,18 +2,17 @@ $(document).ready(function(){
 
     $(window).scroll(function() {
         var $height = $(window).scrollTop();
-        var $offsetDesignChallenge = (($("#designChallenge").offset().top).toFixed()-250);
-        var $offsetAssumptions = (($("#assumptions").offset().top).toFixed()-150);
-        var $offsetTargetAudience = (($("#targetAudience").offset().top).toFixed()-150);
-        var $offsetMemorizationTechniques = (($("#memorizationTechniques").offset().top).toFixed()-150);
-        var $offsetProduct = (($("#product").offset().top).toFixed()-150);
-        var $offsetFeatures = (($("#features").offset().top).toFixed()-150);
-        var $offsetUserFlows = (($("#userFlows").offset().top).toFixed()-150);
+        var $offsetDesignChallenge = (($("#designChallenge").offset().top).toFixed()-300);
+        var $offsetAssumptions = (($("#assumptions").offset().top).toFixed()-250);
+        var $offsetTargetAudience = (($("#targetAudience").offset().top).toFixed()-250);
+        var $offsetMemorizationTechniques = (($("#memorizationTechniques").offset().top).toFixed()-250);
+        var $offsetProduct = (($("#product").offset().top).toFixed()-250);
+        var $offsetFeatures = (($("#features").offset().top).toFixed()-250);
+        var $offsetUserFlows = (($("#userFlows").offset().top).toFixed()-250);
        
         
         if(($height >= ($offsetDesignChallenge)) && ($height < $offsetAssumptions)) {
             $('.scrollDesignChallenge').addClass('active');
-            // alert("background");
         } else {
             $('.scrollDesignChallenge').removeClass('active');
         }
@@ -23,7 +22,6 @@ $(document).ready(function(){
         }
         else{
             $('.scrollAssumptions').removeClass('active');
-            // $('.scrollDesignProcess').removeClass('active');
         }
 
         if(($height >= $offsetTargetAudience) && ($height < $offsetMemorizationTechniques)){
@@ -49,13 +47,12 @@ $(document).ready(function(){
 
         if(($height >= $offsetFeatures) && ($height < $offsetUserFlows)){
             $('.scrollFeatures').addClass('active');
-
         }
         else{
             $('.scrollFeatures').removeClass('active');
         }
 
-        if(($height >= $offsetUserFlows){
+        if(($height >= $offsetUserFlows)){
             $('.scrollUserFlows').addClass('active');
         }
         else{

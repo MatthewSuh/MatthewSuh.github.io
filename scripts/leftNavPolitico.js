@@ -2,17 +2,17 @@ $(document).ready(function(){
 
     $(window).scroll(function() {
         var $height = $(window).scrollTop();
-        var $offsetBackground = (($("#background").offset().top).toFixed()-150);
+        var $offsetBackground = (($("#background").offset().top).toFixed()-250);
         // var $offsetDesign = (($("#design").offset().top).toFixed()-150);
-        var $offsetAnalysis = (($("#analysis").offset().top).toFixed()-150);
-        var $offsetUserResearch = (($("#userResearch").offset().top).toFixed()-150);
-        var $offsetPersonas = (($("#personas").offset().top).toFixed()-250);
-        var $offsetPoliticoResearch = (($("#politicoResearch").offset().top).toFixed()-150);
+        var $offsetAnalysis = (($("#analysis").offset().top).toFixed()-250);
+        var $offsetUserResearch = (($("#userResearch").offset().top).toFixed()-250);
+        var $offsetPersonas = (($("#personas").offset().top).toFixed()-350);
+        var $offsetPoliticoResearch = (($("#politicoResearch").offset().top).toFixed()-250);
         // var $offsetTheRedesign = (($("#theRedesign").offset().top).toFixed()-150);
-        var $offsetRedesign = (($("#redesign").offset().top).toFixed()-150);
-        var $offsetSketches = (($("#sketches").offset().top).toFixed()-150);
-        var $offsetWireframe = (($("#wireframe").offset().top).toFixed()-150);
-        var $offsetConclusion = (($("#conclusion").offset().top).toFixed()-150);
+        var $offsetRedesign = (($("#redesign").offset().top).toFixed()-250);
+        var $offsetSketches = (($("#sketches").offset().top).toFixed()-250);
+        var $offsetWireframe = (($("#wireframe").offset().top).toFixed()-250);
+        var $offsetConclusion = (($("#conclusion").offset().top).toFixed()-250);
        
         
         if(($height >= ($offsetBackground)) && ($height < $offsetAnalysis)) {
