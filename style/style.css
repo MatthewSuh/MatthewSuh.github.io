@@ -17,7 +17,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: start;
-    background:color:white;
 }
 
 nav a {
@@ -170,6 +169,24 @@ li a:hover~span {
     padding-bottom: 75px;
 }
 
+/* @media (max-width:400px){
+    .row1, .row2{
+        flex-direction:column;
+    }
+
+    #politicoImage,
+    #cssArtImage,
+    #tastyMealImage,
+    #nameonicImage {
+    border-radius:10px;
+    }
+
+    .card{
+        width:80%;
+    }
+
+} */
+
 .column1,
 .column2 {
     display: flex;
@@ -280,7 +297,7 @@ li a:hover~span {
 hr {
     margin-top: 35px;
     margin-bottom: 45px;
-    color: #4AA3A2;
+    border-color: #4AA3A2;
 }
 
 .pageContainer {
@@ -313,6 +330,10 @@ display:block;
     font-size: 16px;
     text-align: left;
     list-style-position: inside;
+}
+
+.breakLink{
+    word-break: break-all;
 }
 
 .bodyText p {
@@ -640,7 +661,7 @@ footer p {
 
 @media (max-width: 1280px) {
     .sidebar {
-        width: 190px;
+        width: 200px;
         left: -10%;
     }
 }
@@ -648,6 +669,28 @@ footer p {
 @media (max-width:900px) {
     .sidebar {
         visibility: hidden;
+    }
+
+    .bodyText{
+        width:75%;
+    }
+
+    .imageContainer{
+        width:75%;
+    }
+}
+
+@media (max-width:400px){
+    .imageContainerTop2{
+        width:auto;
+    }
+
+    .imageContainer{
+        width:auto;
+    }
+
+    .bodyText{
+        width:90%;
     }
 }
 
@@ -677,3 +720,25 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
+/* vvvv Mobile Media Query vvvv */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .sidebar{
+        visibility:hidden;
+    }
+
+    .imageContainerTop2{
+        width:auto;
+    }
+
+    .imageContainer{
+        width:90%;
+    }
+
+    .bodyText{
+        width:80%;
+    }
+
+}
+
+/* ^^^^ Mobile Media Query ^^^^ */
