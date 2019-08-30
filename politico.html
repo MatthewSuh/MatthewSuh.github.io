@@ -116,39 +116,59 @@
 
     <div class="bodyText">
       <p>
-        The biggest issue that I encountered was being unable to open articles when tapping on them. I soon learned
+        The biggest issue that I encountered was being <mark>unable to open articles</mark> when tapping on them. I soon
+        learned
         that
         I would, for some reason, need to scroll down a little before being able to open an article.
       </p>
-      <p>In addition, I had no obvious way of navigating through the app. Eventually, I was able to open the
+      <p>In addition, I had <mark>no obvious way of navigating through the app.</mark> Eventually, I was able to open
+        the
         navigation
         menu by tapping the square icon on the top bar, but nothing about that icon indicated the presence of a
-        navigation menu. Once opening the navigation menu, I was greeted with too many different options to choose
+        navigation menu. Once opening the navigation menu, I was greeted with <mark>too many different options</mark> to
+        choose
         from.
         This caused it to take much longer for me to find the specific option I wanted.</p>
-      <p>Thirdly, the share menu displayed many icons of extremely varying sizes in a random order that made it harder
+      <p>Thirdly, the share menu displayed many <mark>icons of extremely varying sizes</mark> in a random order that
+        made it harder
         to
         locate the preferred app.</p>
-      <p>Lastly, while not pictured above, the Save Article feature did not indicate where the article could be viewed
-        later or any way to customize save location.
+      <p>Lastly, while not pictured above, the Save Article feature <mark>did not indicate where the article could be
+          viewed
+          later</mark> or any way to customize save location.
       </p>
-      <!-- <video src=""></video> -->
 
-      <p class="sectionEnd">I continued my app analysis with the app reviews on the Google Play Store. This helped me
+      <div class="video sectionEnd">
+        <video width="400" controls="" loop="" src="videos/politico/pageWontOpen_1.mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <caption>Articles don't open when tapped on unless you scroll first.</caption>
+      </div>
+
+      <p>
+        <h4 id="userResearch">User Research</h4>
+        I continued my app analysis with the app reviews on the Google Play Store. This helped me
         quickly locate any
         common problems that I may
         have missed in my short time using the app. The general consensus was that in addition to the dated aesthetic,
         the notifications were unreadable and therefore useless. As a result, many users were uninstalling POLITICO
         and
-        turning towards other news apps.</p>
+        turning towards other news apps.
+      </p>
+    </div>
 
-      <h4 id="userResearch">User Research</h4>
+    <div class="imageContainer">
+      <img src="images/politico/notificationReview.png" alt="Google Play Store Reviews">
+      <img src="images/politico/notificationReview4.png" alt="Google Play Store Reviews">
+    </div>
+
+    <div class="bodyText">
       <p>
         Given all these issues with the POLITICO app, I wanted to get some input from people who consistently use news
         apps, like POLITICO, to see which features people like and dislike. Unfortunately, since I was at home during
         winter break, I was unable to perform any user interviews in person. To get around this obstacle, I messaged
-        some of the most active users on reddit.com/r/politics. I asked them the following questions: </p>
-      <ol>
+        some of the most active users on the subreddit r/politics. I asked them the following questions: </p>
+      <ol class="spacer">
         <li>Which (political) news apps do you have on your mobile device?</li>
         <li>What features do you like about those apps?</li>
         <li>What do you not like about these apps?</li>
@@ -167,12 +187,13 @@
         </li>
       </ol>
       <h4 id="personas">Personas</h4>
+      <p>From the information I gathered through the user interviews, I developed the following two personas:</p>
     </div>
     <div class="imageContainer">
-      <div class="imageGroupHorizontal2 imageGroupHorizontal">
-        <img src="images/politico/robertPersona.png" alt="Robert Miller Persona">
-        <img src="images/politico/jessicaPersona.png" alt="Jessica Adams Persona">
-      </div>
+      <img src="images/politico/robertPersona.png" alt="Robert Miller Persona">
+    </div>
+    <div class="imageContainer">
+      <img src="images/politico/jessicaPersona.png" alt="Jessica Adams Persona">
     </div>
     <div class="bodyText">
       <hr>
@@ -185,18 +206,21 @@
         policy. Their audience is comprised of “a highly-engaged community of senior government and business
         stakeholders, associations, corporations, media, academics and non-profits” in addition to the average lay
         reader. </p>
-      <p>I found that 40% of all of POLITICO's revenue is from POLITICO PRO. POLITICO PRO is a subscription service
+      <p>I found that <mark>40% of all of POLITICO's revenue is from POLITICO PRO.</mark> POLITICO PRO is a subscription
+        service
         that offers "exclusive reporting, analysis, and tools." In addition, one user states that “[T]he service
         Politico Pro provides is highly specialized and is not offered, in this format, by any other vendor.” Given
         the importance of POLITICO PRO, one would assume that it is being pushed as much as possible to the readers.
         However, when looking at the current app, there is almost no mention of POLITICO PRO, except in the hidden
         navigation menu. </p>
-      <p class="sectionEnd">Secondly, 50% of POLITICO's revenue is from advertisements. Ads are tricky as most users
+      <p class="sectionEnd">Secondly, <mark>50% of POLITICO's revenue is from advertisements.</mark> Ads are tricky as
+        most users
         despise ads that
         impede in the usage of the app and/or are obnoxious. Unfortunately, advertisements cannot be completely
         omitted, as the user interviews requested. However, designing ads in a less intrusive way will be a focus in
         the redesign.
-        Sources: <a class="breakLink" href="https://www.politico.com/live-events/about">https://www.politico.com/live-events/about</a> |
+        Sources: <a class="breakLink"
+          href="https://www.politico.com/live-events/about">https://www.politico.com/live-events/about</a> |
         <a class="breakLink"
           href="https://www.cjr.org/the_profile/can_politico_rise_again.php">https://www.cjr.org/the_profile/can_politico_rise_again.php</a>
         |
@@ -227,7 +251,7 @@
       </div>
     </div>
     <div class="bodyText">
-      <p>Home and Navigation:</p>
+      <p><em class="bold">Home and Navigation:</em></p>
       <p>For the home screen (top news), the apps current layout seemed to still be good, so I kept that. In the end,
         I swapped the position of the image with the headline. The navigation is where most of the thinking had to be
         done. In an effort to minimize clutter and reduce the number of options (Hick's Law), I decided to limit the
@@ -236,16 +260,18 @@
         headers where the ones I put in the navigation menu and hid the rest in their respective sub-menus.
 
       </p>
-      <p>Top Bar:</p>
+      <p><em class="bold">Top Bar:</em></p>
       <p>There was not a whole that I thought needed to be changed about the top bar of the app. However, I decided to
         use a hamburger menu icon to hide the navigation. I debated putting a search option in the top bar, but
         instead put it in the navigation menu so the top bar wouldn't be too cluttered. In the end, I put a button to
         access POLITICO PRO content, since it is one of their main sources of revenue.</p>
-      <p>Notifications:</p>
+      <p><em class="bold">Notifications:</em></p>
       <p>This was perhaps the most important feature according to the users. Since the current app's notifications
         were broken, I did not really have anything to go off of. I ended up deciding on a simple, yet clean
-        notification with the text "BREAKING NEWS:" followed by the article headline.</p>
-      <p>Article:</p>
+        notification with the text "BREAKING NEWS:" followed by the article headline. In addition to fixing the
+        notification visuals, I added a section to the settings where the user could enable or disable notifications for
+        various types of news.</p>
+      <p><em class="bold">Article:</em></p>
       <p>For the article itself, the current design was sufficiently good. I did add a bottom options bar with
         different actions such as "back, share, save article, download." At first I thought having icons would be
         better and produce a less cluttered bottom options bar, but there ended up being too much space, and some of
@@ -254,18 +280,18 @@
         the arrow.
 
       </p>
-      <p>Saved Articles:</p>
+      <p><em class="bold">Saved Articles:</em></p>
       <p>I used almost the same design as the home screen (top news) minus the big image and headline. I added a
         search bar for users who save a lot of articles. I also decided to add a "Sort by" option in case readers want
         to locate an article from a long time ago.</p>
-      <p>Settings:</p>
+      <p><em class="bold">Settings:</em></p>
       <p class="sectionEnd">I found this to be the most tricky page to design out of all of them. Since the redesign
         must meet the needs
         of the users, I would have to include all 46 different types of content that users can toggle on/off whether
         or not they are interested in it. I first decided to use drop down menus, but quickly realized that it would
         just cover up the other content on the page. Clicking to expand would be a better design choice. While it
         would be hidden from the user at first, I felt that it would be better than displaying everything at once.
-        Additionally, to alleviate the overwhelmingness of all the options, I decided to add a search bar in case the
+        Additionally, I decided to add a search bar in case the
         reader knows exactly what they want.</p>
 
       <h3 id="wireframe">Wireframe</h3>
@@ -274,6 +300,7 @@
 
     <div class="imageContainer">
       <img src="images/politico/wireframe.png" alt="Redesign Wireframe">
+      <caption>I used Adobe XD in order to design the wireframe.</caption>
     </div>
     <div class="imageContainer">
       <div class="imageGroupHorizontal4">
@@ -282,10 +309,26 @@
         <img src="images/politico/Saved Articles.png" alt="Redesigned Saved Articles Page">
         <img src="images/politico/Settings.png" alt="Redesigned Settings Page">
       </div>
+      <caption>These are the the main four screens that address the Redesign Focuses.
+        </caption>
     </div>
 
-    <video src=""></video>
+    <div class="video sectionEnd">
+        <video width="400" controls="" loop="" src="videos/politico/POLITICO Redesign Click Article.mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <caption>Articles now open when tapped on.</caption>
+      </div>
 
+      <div class="imageContainer">
+        <div class="imageGroupHorizontal3">
+          <img src="images/politico/Settings.png" alt="Settings">
+          <img src="images/politico/Settings 2.png" alt="Settings Page 2">
+          <img src="images/politico/Notifications.png" alt="Notification Settings">
+        </div>
+
+        <caption>The redesigned settings page allowing for much more customizability.</caption>
+      </div>
     <div class="bodyText">
       <h4>Before and After Comparison</h4>
     </div>
@@ -377,7 +420,7 @@
 
 <ul class="bottomGrid">
   <li class="bottomNav">
-    <a class="unselected" href=nameonicApp.html>nameonic</a>
+    <a class="unselected" href=nameonic.html>nameonic</a>
     <span class="highlightB"></span>
   </li>
   <li class="bottomNav">
