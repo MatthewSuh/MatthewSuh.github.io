@@ -195,7 +195,7 @@ li a:hover~span {
     top: 0px;
     position: relative;
     top: 10px;
-    transition: all 0.2s ease 0s;
+    transition: all 0.3s ease-in-out;
 }
 
 .card:hover {
@@ -220,6 +220,11 @@ li a:hover~span {
     grid-row-start:1;
 } */
 
+.cardLink{
+    text-decoration:none;
+}
+
+
 #politicoImage,
 #cssArtImage,
 #tastyMealImage,
@@ -242,6 +247,9 @@ li a:hover~span {
 .projectDescription {
     padding: 10px;
     margin-left: 15px;
+    color:rgba(66,66,66);
+    text-decoration:none;
+    
 }
 
 
@@ -256,9 +264,13 @@ li a:hover~span {
     padding-bottom: 25px;
 }
 
-.text a {
+.text{
     color: inherit;
     text-decoration-color: #4AA3A2;
+}
+
+.cardText{
+    background-color:white;
 }
 
 /* ^^^^ Portfolio Cards ^^^^ */
@@ -565,6 +577,7 @@ article ul a:hover {
 
 .socialIcons a{
     color: rgba(66,66,66);
+    transition:color 0.2s ease;
 }
 
 .socialIcons a:hover{
