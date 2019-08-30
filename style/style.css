@@ -334,6 +334,7 @@ display:block;
 
 .breakLink, .linkBreak{
     word-wrap:break-word;
+    word-wrap:break-all;
 }
 
 .bodyText p {
