@@ -333,7 +333,7 @@ display:block;
 }
 
 .breakLink{
-    word-break: break-all;
+    word-wrap:break-word;
 }
 
 .bodyText p {
