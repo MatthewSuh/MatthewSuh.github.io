@@ -9,6 +9,9 @@ $(document).ready(function(){
         var $offsetProduct = (($("#product").offset().top).toFixed()-250);
         var $offsetFeatures = (($("#features").offset().top).toFixed()-250);
         var $offsetUserFlows = (($("#userFlows").offset().top).toFixed()-250);
+        var $offsetSketches = (($("#sketches").offset().top).toFixed()-250);
+        var $offsetConclusion = (($("#conclusion").offset().top).toFixed()-250);
+
        
         
         if(($height >= ($offsetDesignChallenge)) && ($height < $offsetAssumptions)) {
@@ -52,11 +55,25 @@ $(document).ready(function(){
             $('.scrollFeatures').removeClass('active');
         }
 
-        if(($height >= $offsetUserFlows)){
+        if(($height >= $offsetUserFlows && ($height < $offsetSketches))){
             $('.scrollUserFlows').addClass('active');
         }
         else{
             $('.scrollUserFlows').removeClass('active');
+        }
+
+        if(($height >= $offsetSketches && ($height < $offsetConclusion))){
+            $('.scrollSketches').addClass('active');
+        }
+        else{
+            $('.scrollSketches').removeClass('active');
+        }
+
+        if(($height >= $offsetConclusion)){
+            $('.scrollConclusion').addClass('active');
+        }
+        else{
+            $('.scrollConclusion').removeClass('active');
         }
     });
 });
