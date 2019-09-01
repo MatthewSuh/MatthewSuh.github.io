@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden
 }
 
 html,
@@ -168,24 +169,6 @@ li a:hover~span {
     width: 100%;
     padding-bottom: 75px;
 }
-
-/* @media (max-width:400px){
-    .row1, .row2{
-        flex-direction:column;
-    }
-
-    #politicoImage,
-    #cssArtImage,
-    #tastyMealImage,
-    #nameonicImage {
-    border-radius:10px;
-    }
-
-    .card{
-        width:80%;
-    }
-
-} */
 
 .column1,
 .column2 {
@@ -545,6 +528,7 @@ article ul a:hover {
     color: rgba(66, 66, 66);
     display: inline-block;
     padding: 0 10px 0 10px;
+    font-size:16px;
 }
 
 .unselected {
@@ -637,6 +621,7 @@ article ul a:hover {
     margin-top: 75px;
     margin-bottom: 25px;
     text-align: center;
+    font-size:16px;
 }
 
 footer p {
@@ -708,7 +693,7 @@ footer p {
     }
 }
 
-@media (max-width:400px){
+/* @media (max-width:400px){
     .imageContainerTop2{
         width:auto;
     }
@@ -720,7 +705,7 @@ footer p {
     .bodyText{
         width:90%;
     }
-}
+} */
 
 @media(max-height: 680px) {
     .sidebar {
@@ -765,7 +750,29 @@ footer p {
 
     .bodyText{
         width:80%;
+        font-size:inherit;
     }
+
+    .footer{
+        font-size:30px;
+    }
+
+    .bottomNav a{
+        font-size:30px;
+    }
+
+    #tooltipText{
+        visibility:hidden;
+    }
+
+    #toolTip{
+        border:none;
+    }
+
+    .socialIcons li{
+        font-size:50px;
+    }
+
 
 }
 
