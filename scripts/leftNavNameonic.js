@@ -10,6 +10,7 @@ $(document).ready(function(){
         var $offsetFeatures = (($("#features").offset().top).toFixed()-250);
         var $offsetUserFlows = (($("#userFlows").offset().top).toFixed()-250);
         var $offsetSketches = (($("#sketches").offset().top).toFixed()-250);
+        var $offsetFinalDesign = (($("#finalDesign").offset().top).toFixed()-250);
         var $offsetConclusion = (($("#conclusion").offset().top).toFixed()-250);
 
        
@@ -62,11 +63,18 @@ $(document).ready(function(){
             $('.scrollUserFlows').removeClass('active');
         }
 
-        if(($height >= $offsetSketches && ($height < $offsetConclusion))){
+        if(($height >= $offsetSketches && ($height < $offsetFinalDesign))){
             $('.scrollSketches').addClass('active');
         }
         else{
             $('.scrollSketches').removeClass('active');
+        }
+
+        if(($height >= $offsetFinalDesign && ($height < $offsetConclusion))){
+            $('.scrollFinalDesign').addClass('active');
+        }
+        else{
+            $('.scrollFinalDesign').removeClass('active');
         }
 
         if(($height >= $offsetConclusion)){

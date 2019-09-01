@@ -299,7 +299,7 @@ hr {
 .logos {
     width: 10%;
     height: auto;
-display:block;
+    display:block;
     float:left;
 }
 
@@ -754,6 +754,7 @@ footer p {
 
     .imageContainer{
         width:90%;
+        font-size:25px;
     }
 
     .bodyText{
@@ -761,6 +762,9 @@ footer p {
         font-size:inherit;
     }
 
+    .bodyText p{
+        line-height:35px;
+    }
     .footer{
         font-size:30px;
     }
@@ -779,6 +783,23 @@ footer p {
 
     .socialIcons li{
         font-size:50px;
+    }
+
+    .column1, .column2{
+        margin-right:15px;
+        margin-left:15px;
+    }
+
+    .projectDescription, .projectType{
+        font-size:35px;
+    }
+
+    .video{
+        font-size:25px;
+    }
+
+    .sectionEnd{
+        margin-bottom:35px;
     }
 
 
