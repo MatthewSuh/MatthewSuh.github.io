@@ -439,6 +439,16 @@ ul {
     margin-bottom: 25px;
 }
 
+.captionSpacer{
+    margin-bottom:35px;
+    margin-top:25px;
+}
+
+/* .appBorder img{
+    border: 0.5px solid rgba(66,66,66);
+    box-shadow: 10px 10px 5px grey;
+} */
+
 mark {
     background-color: rgba(74, 163, 161, 0.151);
     color: rgba(66, 66, 66);
