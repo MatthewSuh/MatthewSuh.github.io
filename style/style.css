@@ -489,9 +489,9 @@ article ul a {
     text-decoration-color: #4AA3A2;
 }
 
-article ul a:hover {
+/* article ul a:hover {
     color: #4AA3A2;
-}
+} */
 
 .bodyText a{
     color:#4AA3A2;
@@ -522,6 +522,10 @@ article ul a:hover {
     font-weight:bold;
 }
 
+.aboutBlurb{
+    color:rgba(66, 66, 66);
+}
+
 
 /* ^^^^ Main Content ^^^^ */
 
@@ -533,6 +537,23 @@ article ul a:hover {
     align-items: center;
     margin-top: 60px;
     padding-left: 0;
+}
+
+.bottomGridC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding-left: 0;
+}
+
+.bottomGridD{
+    display:flex;
+    flex-direction:column;
+}
+
+.bottomGridC ul:hover{
+    color:rgba(66, 66, 66);
 }
 
 .bottomNav {
@@ -577,6 +598,30 @@ article ul a:hover {
     /* color: #4AA3A2; */
 }
 
+.highlightC {
+    visibility: hidden;
+    z-index: -1;
+    display: block;
+    width: calc(100% - 13px);
+    height: 15px;
+    background: rgba(74, 163, 161, 0.349);
+    position: absolute;
+    left: 5px;
+    bottom: 4px;
+}
+
+.currentHighlightC {
+    z-index: -1;
+    display: block;
+    width: calc(100% - 13px);
+    height: 15px;
+    background: rgba(74, 163, 161, 0.349);
+    position: absolute;
+    left: 5px;
+    bottom: 4px;
+    /* color: #4AA3A2; */
+}
+
 /* .bottomNav a:hover {
     visibility: visible;
     color: #4AA3A2;
@@ -587,6 +632,7 @@ article ul a:hover {
     animation: ul 0.3s ease-out;
     background: rgba(74, 163, 161, 0.349);
 }
+
 
 @keyframes ul {
     0% {
