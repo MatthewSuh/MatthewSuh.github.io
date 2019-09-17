@@ -302,6 +302,15 @@ hr {
     height: auto;
     display:block;
     float:left;
+    margin-bottom: 25px;
+}
+
+.logos3{
+    width:20%;
+    height:auto;
+    display:block;
+    float:left;
+    margin-bottom: 25px;
 }
 
 #mockup {
@@ -360,9 +369,28 @@ ul {
     list-style-position: outside;
 }
 
-.logos {
-    margin-bottom: 25px;
+.group{
+    /* background-color:#EAF4F4; */
+    width:50%;
+    float:left;
+    list-style-position: outside;
 }
+
+.summary{
+    width: 100%;
+background-color:
+    #f2f2f2;
+    display: flex;
+
+}
+/*
+.horizontal{
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    align-items:center;
+} */
+
 
 .imageContainer {
     overflow-x: hidden;
