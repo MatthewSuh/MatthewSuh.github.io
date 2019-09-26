@@ -748,7 +748,7 @@ footer p {
     width: 270px;
     position: fixed;
     left: -7%;
-    top: 200px;
+    top: 25%;
     margin: 0 0 0 110px;
 }
 
@@ -778,7 +778,8 @@ footer p {
 @media (max-width: 1280px) {
     .sidebar {
         width: 200px;
-        left: -10%;
+        left: -7%;
+        top:25%;
     }
 }
 
@@ -810,11 +811,11 @@ footer p {
     }
 } */
 
-@media(max-height: 680px) {
+/* @media(max-height: 680px) {
     .sidebar {
         top: 75px;
     }
-}
+} */
 
 @media(max-height:540px) {
     .sidebar {
