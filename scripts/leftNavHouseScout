@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $(window).scroll(function() {
         var $height = $(window).scrollTop();
-        var $offsetProjectStatement = (($("#projectStatement").offset().top).toFixed()-300);
+        var $offsetProblem = (($("#problem").offset().top).toFixed()-300);
         var $offsetTargetAudience = (($("#targetAudience").offset().top).toFixed()-250);
         var $offsetUserResearch = (($("#userResearch").offset().top).toFixed()-150);
         var $offsetPersona = (($("#persona").offset().top).toFixed()-250);
@@ -15,10 +15,10 @@ $(document).ready(function(){
 
        
         
-        if(($height >= ($offsetProjectStatement)) && ($height < $offsetTargetAudience)) {
-            $('.scrollProjectStatement').addClass('active');
+        if(($height >= ($offsetProblem)) && ($height < $offsetTargetAudience)) {
+            $('.scrollProblem').addClass('active');
         } else {
-            $('.scrollProjectStatement').removeClass('active');
+            $('.scrollProblem').removeClass('active');
         }
 
         if(($height >= $offsetTargetAudience) && ($height < $offsetUserResearch)){
