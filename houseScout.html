@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio Website for Matthew Suh">
+  <meta name="author" content="Matthew Suh">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="scripts/leftNavHouseScout"></script>
+  <script src="https://kit.fontawesome.com/ed29159bc9.js"></script>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png/"">
+        <link href=" style/style.css" type="text/css" rel="stylesheet" />
+  <title>House Scout | Matthew Suh | Portfolio</title>
+</head>
+
+
+
+<!-- vvvv Navigation vvvv -->
+
+<header>
+  <nav>
+    <div class="nav">
+      <div class="nameNav"><a href="index.html">Matthew <div id="tooltip">Suh
+            <span id="tooltipText">Rhymes with "Huh" or "Duh"</span></div></a></div>
+      <ul class="rightAlign">
+        <li class="navLink">
+          <a class="current" aria-current="page" href="index.html">Portfolio</a>
+          <span class="highlight"></span>
+          <span class="currentHighlight"></span>
+        </li>
+        <li class="navLink">
+          <a href="about.html">About</a>
+          <span class="highlight"></span>
+        </li>
+        <li class="navLink">
+          <a href="otherFiles/Matthew Suh Resume 2020.pdf" target="_blank">Resumé</a> <span class="highlight"></span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- ^^^^ Navigation ^^^^ -->
+
+
+<!-- vvvv Content Container vvvv -->
+<div class="pageContainer">
+  <article class="contentContainer">
+    <div class="imageContainerTop">
+      <div class="imageContainerTop2">
+        <img id="mockup" src="images/houseScout/houseScoutMockup.png" alt="House Scout App Mockup">
+
+      </div>
+    </div>
+    <div class="bodyText">
+      <h1>App Design: House Scout</h1>
+      <h2>Designing an App to Help Cornell Students Match & Tour Off-Campus Housing Options</h2>
+      <img class="logos" src="images/houseScout/psfigmalogo.png" alt="Made with Figma and Photoshop">
+
+    </div>
+
+
+
+
+    <div class="bodyText">
+      <h3 id="projectStatement">The Project Statement</h3>
+      <p>Housing is only guaranteed for two years for Cornell students. After that, it is up to the student to find
+        housing
+        for their junior and senior years. However, <mark>there aren't that many resources for students to use in order
+          to
+          find
+          housing near campus.</mark></p>
+      <p>Since information is difficult to find online, some students opt to meet with the landlord or realtor in
+        person, but
+        the <mark>majority of offices close at 5pm</mark>, when many students still have class. On top of all this, the
+        majority of
+        housing
+        options are taken within a few months of the beginning of Fall Semester, adding more stress within a limited
+        time
+        frame.
+      </p>
+
+      <h4>The Solution</h4>
+      <p class="sectionEnd">As a team, we designed an app to help students find <mark>housing options that fit their
+          preferences</mark> and
+        assist them
+        in <mark>scheduling in-person tours</mark>, as well as <mark>hiring someone to tour for them.</mark></p>
+
+      <h3 id="targetAudience">Target Audience</h3>
+      <p class="sectionEnd"><mark>This app is mainly targeted at sophomores, juniors, and seniors at Cornell
+          University.</mark> Sophomores have guaranteed housing,
+        so they would depend less on the app, but nonetheless some choose to live off campus.
+        Freshmen, however, are required to live on campus so the app would not benefit them.
+        In addition, this app is designed to be used by Cornell University students in particular,
+        so the same design may not be applicable at other universities.
+      </p>
+
+
+      <h3 id="userResearch">User Research</h3>
+      <p>Once we had established our target audience, we set out to interview the very people are app was being designed
+        for.
+        We interviewed 7 students, from sophomore year and older, and asked them about their past experiences with the
+        off-campus housing process, and what their ideal process would include. I was responsible for interviewing or
+        taking notes for 3 of them.
+        From those interviews, we created an affinity diagram, pictured below, and came up with the following takeaways:
+      </p>
+      <ul>
+        <li>Lack of centralized information or information in general made it difficult to search according to specific
+          <mark>preferences</mark></li>
+        <li>Difficult to balance school work and <mark>touring</mark> since most offices close at 5pm (some have class
+          at or near that time)</li>
+        <li><mark>Lots of stress</mark> surrounding off-campus housing process due to general uncertainty and lack of
+          guidance</li>
+      </ul>
+    </div>
+    <div class="imageContainer">
+      <img src="images/houseScout/affinityDiagramPeople.jpg" alt="Affinity Diagram">
+      <caption>Building the Affinity Diagram</caption>
+    </div>
+    <div class="bodyText">
+      <h3 id="persona">Persona</h3>
+      <p>From our user interviews we developed the following persona:</p>
+    </div>
+
+    <div class="imageContainer">
+      <img src="images/houseScout/persona.jpg" alt="Persona - Credit to Carrie (Jiarui) Hu for making the visual design">
+      <caption>Credit to Carrie (Jiarui) Hu for creating the visual.</caption>
+    </div>
+    <div class="bodyText">
+      <h3 id="ideation">Ideation</h3>
+      <h4>Evaluating the Existing Solution Space</h4>
+      <p>Before coming up with ideas, we needed to first evaluate the current solution space. This way, we wouldn't make
+        a copy of an existing product,
+        and could also learn from them. After doing our research, we listed the things that they do well and where they
+        fall short.</p>
+    </div>
+
+    <div class="imageContainer">
+      <img src="images/houseScout/solutionSpace1.jpeg" alt="Existing Solution Space">
+      <caption>Existing Solution Space</caption>
+    </div>
+    <div class="imageContainer">
+      <img src="images/houseScout/solutionSpace2.jpg" alt="Evaluation of Solution Space">
+      <caption>Evaluation of Solution Space</caption>
+
+    </div>
+    <div class="bodyText">
+      <h4>Brainstorming</h4>
+      <p>Following our analysis of the existing solution space, we began brainstorming various ideas for our product:
+      </p>
+    </div>
+
+    <div class="imageContainer">
+      <img src="images/houseScout/ideation2.jpg" alt="Ideation">
+      <caption>Sketches of Tech and Non-Tech Solutions</caption>
+    </div>
+    <div class="bodyText">
+
+      <h4>Chosen Solution</h4>
+      <p>In the end, our chosen solution combined two of the most important features we had come up with,
+        <ul>
+          <li>A way search based on <mark>preferences</mark></li>
+          <li>A way to schedule <mark>tours</mark></li>
+        </ul>
+
+        We established 3 main tasks:
+        <ul>
+          <li>Setting up housing preferences</li>
+          <li>Scheduling In-Person Tours</li>
+          <li>Hiring a Stand-In Tour</li>
+        </ul>
+
+    </div>
+    <div class="imageContainerMed">
+      <img src="images/houseScout/userFlow.png" alt="Task Relationship">
+      <caption>Task Relationship</caption>
+    </div>
+    <div class="bodyText">
+      <p class="sectionEnd">
+        <mark>Stand-In Tours</mark> was an idea that I thought would distinguish our app from other competitors.
+        Since nearly all the people we interviewed placed a lot of importance on being able to tour and see the property
+        first, this feature
+        gives the opportunity to send someone else to tour in their place. While not perfect,
+        it would still allow more insight than what could be gathered on the website alone.
+
+      </p>
+
+
+
+
+      <h3 id="sketches">Sketches</h3>
+      <p>Once our idea was finalized, we sketched each of the tasks in our app.
+        Since I was the one who came up with the Stand-In Tour idea, I was in charge of sketching and storyboarding
+        those tasks. </p>
+    </div>
+
+    <!-- <div class="imageContainer">
+        <img src="images/houseScout/standInSketch1.jpg" alt="Stand-In Sketch 1">
+      </div>
+
+      <div class="imageContainer">
+        <img src="images/houseScout/standInSketch2.jpg" alt="Stand-In Sketch 2">
+      </div> -->
+    <div class="imageContainer">
+      <img src="images/houseScout/standInSketches.jpg" alt="Stand-In Sketches">
+    </div>
+
+    <div class="imageContainer sectionEnd">
+      <img src="images/houseScout/standInStoryboard.jpg" alt="Stand-In Storyboard">
+    </div>
+
+    <div class="bodyText">
+
+
+      <h3 id="paperPrototype">Paper Prototype</h3>
+      <p>We built a paper prototype so that we could get useful feedback on the way our app works and to find out where
+        any pain points were. I was responsible for facilitating one of the 3 user testing sessions.</p>
+    </div>
+
+    <div class="videoWide sectionEnd">
+      <video width="100%" controls="" loop="" src="videos/houseScout/paperPrototype.mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <caption>Paper Prototype of the HouseScout App</caption>
+    </div>
+
+    <div class="bodyText">
+
+      <h4>User Feedback</h4>
+      <p>From the 3 user testing sessions we received the following feedback:
+        <ul><mark>Housing Preferences:</mark>
+          <li>Selection process takes too long</li>
+          <li>Questions can be unclear</li>
+          <li>Must/Preferred options don't fit every question</li>
+        </ul>
+        <ul><mark>General:</mark>
+          <li>Add a search function</li>
+          <li>Provide more information on housing</li>
+        </ul>
+        <ul><mark>Tours:</mark>
+          <li>Provide explanation for "Stand-In Tour"</li>
+          <li>List frequently asked questions</li>
+          <li>Add confirmation page</li>
+        </ul>
+        We also received some positive feedback on features that the users liked:
+        <ul>
+          <li>The matching ratio in the Housing Suggestions page is good to have, since it can give users a general idea
+            about how much the housing option matches the user's preferences.</li>
+          <li>The Stand-In tour idea is great, but only after it's explained.</li>
+        </ul>
+      </p>
+    </div>
+    <div class="imageContainer sectionEnd">
+      <img src="images/houseScout/userTestingPic2.jpg" alt="User Feedback Session">
+      <caption>User Testing Session</caption>
+    </div>
+
+    <div class="bodyText">
+
+
+
+      <h3 id="midfi">Mid-Fidelity Prototype</h3>
+      <p>For the Mid-Fidelity Prototype we made changes based on the user feedback and created it using Balsamiq:</p>
+
+    </div>
+    <div class="videoWide sectionEnd">
+      <video width="100%" controls="" loop="" src="videos/houseScout/balsamiqVideo.mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <caption>Mid-Fidelity Prototype of the HouseScout App</caption>
+    </div>
+
+    <div class="bodyText">
+      <h4>Mid-Fidelity Prototype Feedback</h4>
+      <p>We presented our Mid-Fidelity Prototype to the class and received a lot of helpful feedback which we
+        incorporated into our final design. Specifically, we were told that the process of <mark>setting preferences was
+          extremely tedious</mark>, and would <mark>cause users to quit the app before using the main features</mark>.
+        In addition, there was <mark>no way to see contact information</mark> for the stand-in.
+      </p>
+
+      <h4>Heuristic Evaluation</h4>
+      <p>After thoroughly evaluating the app design, we found that the Preferences pages violated many of the <a
+          href="https://www.nngroup.com/articles/ten-usability-heuristics/">Jakob Nielsen's 10 Usability Heuristics for
+          User Interface Design</a>. In addition, based on feedback from the Mid-Fidelity presentation, we completely
+        revamped the Preferences section.</p>
+      <p class="sectionEnd">We redesigned the Preferences section to be divided into 4 sections, and instead of having
+        interview like
+        questions for each, we made it <mark>similar to a quiz</mark> with checkboxes, multiple choice, sliders, and a
+        map.</p>
+
+      <h3 id="highfi">High-Fidelity Prototype</h3>
+
+      <h4>Usability Testing</h4>
+      <p class="sectionEnd">We conducted 4 usability testing sessions to make sure our
+        High-Fidelity Prototype didn't have any major issues and was as refined as possible. I was responsible for
+        conducting 2 of them. Because of how thoroughly we sought user feedback
+        at every step of the way, the only changes we ended up having to make were very minor, giving us this final
+        prototype:</p>
+    </div>
+
+    <div class="imageContainer">
+      <div class="sideBySide">
+        <img src="images/houseScout/preferencesGif.gif" alt="Preferences Gif">
+        <div class="gridText">
+          <p>
+            <h4>Housing Preferences</h4>
+            <ul>
+              <li>When first opening the app, the user will be prompted to enter their housing preferences.</li>
+              <li>The recommended housing options are based off of these preferences.</li>
+              <li>Based on user feedback we divided preferences into 4 categories: Housing Type, Location, Move-In
+                Dates, and Amenities.</li>
+              <li>Each of the preferences were things that people found important based on our user interviews.</li>
+            </ul>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="imageContainer">
+      <div class="sideBySide">
+
+        <div class="gridText">
+          <p>
+            <h4>In-Person Tour</h4>
+            <ul>
+              <li>The user can schedule in-person tours with different housing offices from a single app.</li>
+              <li>After selecting a property, the user can select from available dates and times to go on a tour.</li>
+              <li>Based on user feedback we added a confirmation page to verify that the user had signed up for a tour.
+              </li>
+            </ul>
+          </p>
+        </div>
+
+        <img src="images/houseScout/inPersonGif.gif" alt="In-Person Tour Gif">
+
+      </div>
+    </div>
+
+    <div class="imageContainer">
+      <div class="sideBySide">
+        <img src="images/houseScout/standInGif.gif" alt="Stand-In Tour Gif">
+        <div class="gridText">
+          <p>
+            <h4>Stand-In Tour</h4>
+            <ul>
+              <li>Users can hire someone else to tour various properties for them through a single app.</li>
+              <li>Lack of time to go on tours coupled with the necessity of tours motivated this feature.</li>
+              <li>Based on user feedback, we added a short description of what a "stand-in tour" is.</li>
+              <li>Added contact information for the stand-in based on additional feedback.</li>
+              <li>Users can specify if they want their stand-in to take pictures/videos or even FaceTime them during the
+                tour.</li>
+              <li>Users can also include specific questions that they want to ask the landlord, or specific things to
+                keep an eye out for.</li>
+            </ul>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+    <div class="bodyText">
+      <h3 id="interactive">Interactive Prototype</h3>
+      <p>An interactive version of our final prototype is below:</p>
+    </div>
+    <div class="imageContainer">
+      <iframe style="border: none" width="800" height="450"
+        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsTGvwDaaXouC6odcUNNefT%2FHouseScout-App%3Fnode-id%3D55%253A9375%26scaling%3Dscale-down"
+        allowfullscreen></iframe>
+        <caption>Credit to Carrie (Jiarui) Hu for the visual design work on the app.</caption>
+    </div>
+
+    <div class="bodyText">
+      <p>This was a group project for the class INFO 3450. My teammates were: <br> <a
+          href="https://www.jiarui-hu.com/">Carrie
+          (Jiarui) Hu,</a> Phyllisia Angelia, and Jackson Rong</p>
+      <p>We won an award for the <mark>Best Visual Design</mark> at the poster presentation at the end of the semester!
+      </p>
+    </div>
+    <div class="imageContainer">
+      <img src="images/houseScout/teamPic.jpg" alt="Picture of the Team">
+      <caption>Picture of the team at the poster presentation.</caption>
+    </div>
+  </article>
+</div>
+
+<!-- vvvv Left Nav VVVV -->
+
+<div class="sidebar">
+
+  <div class="leftNav">
+
+    <ul class="leftNavStyle">
+      <li class="spacer"><a href="houseScout.html#projectStatement" class="scrollProjectStatement">Project Statement</a>
+      </li>
+      <li class="spacer"><a href="houseScout.html#targetAudience" class="scrollTargetAudience">Target Audience</a>
+      </li>
+      <li class="spacer"><a href="houseScout.html#userResearch"
+          class="scrollUserResearch">User Research</a></li>
+      <li class="spacer"><a href="houseScout.html#persona" class="scrollPersona">Persona</a></li>
+      <li class="spacer"><a href="houseScout.html#ideation" class="scrollIdeation">Ideation</a></li>
+      <li class="spacer"><a href="houseScout.html#sketches" class="scrollSketches">Sketches</a></li>
+      <li class="spacer"><a href="houseScout.html#paperPrototype" class="scrollPaperPrototype">Paper Prototype</a></li>
+      <li class="spacer"><a href="houseScout.html#midfi" class="scrollMidFi">Mid-Fidelity Prototype</a></li>
+      <li class="spacer"><a href="houseScout.html#highfi" class="scrollHighFi">High-Fidelity Prototype</a></li>
+      <li class="spacer"><a href="houseScout.html#interactive" class="scrollInteractive">Interactive Prototype</a></li>
+
+
+    </ul>
+  </div>
+
+
+</div>
+
+<!-- ^^^^ Left Nav ^^^^ -->
+</div>
+
+
+
+<!-- ^^^^ Content Container ^^^^ -->
+
+
+
+<!-- vvvv Bottom Project Nav vvvv -->
+
+<ul class="bottomGrid">
+  <li class="bottomNav">
+    <a class="unselected" href="index.html">Portfolio Home</a>
+  </li>
+  <li class="bottomNav colorFont">
+    <a class="selected" href="houseScout.html">HouseScout</a>
+  </li>
+  <li class="bottomNav">
+    <a class="unselected" href=nameonic.html>nameonic</a>
+  </li>
+  <li class="bottomNav">
+    <a class="unselected" href="politico.html">Politico Case Study</a>
+  </li>
+  <li class="bottomNav">
+    <a class="unselected" href="cssart.html">CSS Art</a>
+  </li>
+</ul>
+
+<!-- ^^^^ Bottom Project Nav ^^^^ -->
+
+<!-- vvvv Footer vvvv -->
+
+<footer class="footer">
+  <div class="socialIcons">
+    <ul>
+      <li class="fontAwesome">
+        <a href="mailto:mys34@cornell.edu"><i class="far fa-envelope"></i></a>
+      </li>
+      <li class="fontAwesome">
+        <a href="https://linkedin.com/in/matthew-suh" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </li>
+      <li class="fontAwesome">
+        <a href="https://codepen.io/awesuhm/" target="_blank"><i class="fab fa-codepen"></i></a>
+      </li>
+    </ul>
+    <div class="footerCredit">Designed and Coded by Me with frequent DotA2 and SSBU breaks</div>
+    <p>February 2020</p>
+
+
+  </div>
+</footer>
+
+<!-- ^^^^ Footer ^^^^ -->
