@@ -884,7 +884,7 @@ footer p {
     color: #4AA3A2 !important;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 88%) {
     .sidebar {
         width: 200px;
         left: -7%;
@@ -892,7 +892,7 @@ footer p {
     }
 }
 
-@media (max-width:1000px) {
+@media (max-width:70%) {
     .sidebar {
         visibility: hidden;
     }
