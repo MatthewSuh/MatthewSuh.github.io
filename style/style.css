@@ -892,7 +892,7 @@ footer p {
     }
 }
 
-@media (max-width:900px) {
+@media (max-width:1000px) {
     .sidebar {
         visibility: hidden;
     }
