@@ -462,7 +462,10 @@ background-color:
     list-style-position: outside;
 }
 
-
+.sketch{
+    border: 1px solid #434343;
+    border-radius: 10px;
+}
 
 .imageContainer {
     overflow-x: hidden;
