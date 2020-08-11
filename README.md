@@ -1,2 +1,2 @@
 # MatthewSuh.github.io
-my personal website
+my portfolio website
