@@ -9,8 +9,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/ed29159bc9.js"></script>
   <link rel="shortcut icon" type="image/png" href="images/favicon.png?">
-  <link href="style/style.css" type="text/css" rel="stylesheet" />
-  <title>Matthew Suh | Portfolio</title>
+  <link href="style/style.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/mhz6obu.css">
+  <title>Matthew Suh | Case Studies</title>
 </head>
 
 
@@ -26,16 +27,20 @@
               <span id="tooltipText">Rhymes with "Huh" or "Duh"</span></div></a></div>
         <ul class="rightAlign">
           <li class="navLink">
-            <a class="current" aria-current="page" href="index.html">Portfolio</a>
+            <a class="current" aria-current="page" href="index.html">Case Studies</a>
             <span class="highlight"></span>
             <span class="currentHighlight"></span>
+          </li>
+          <li class="navLink">
+            <a href="projects.html">Projects</a>
+            <span class="highlight"></span>
           </li>
           <li class="navLink">
             <a href="about.html">About</a>
             <span class="highlight"></span>
           </li>
           <li class="navLink">
-            <a href="files/Matthew Suh Resume 2020.pdf" target="_blank" rel="noopener noreferrer">Resumé</a>
+            <a href="https://drive.google.com/file/d/1USmH0XrNoyfdpX6k0icLhdXujb66EI7C/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resumé</a> <span
             <span class="highlight"></span>
           </li>
         </ul>
@@ -46,10 +51,25 @@
   <!-- ^^^^ Navigation ^^^^ -->
 
   <!-- vvvv Grid with clickable links to projects vvvv -->
-
+  
   <div class="flexTable">
     <div class="row1">
       <div class="column1">
+
+        <a href="metrik-internship.html" class="cardLink">
+          <div class="card" id="metrikCard">
+            <img id="metrikImage" src="images/metrik/metrikWebsite.png" alt="Metrik Website">
+            <div class="text">
+              <p class="projectType">Internship:</p>
+              <p class="projectDescription">Metrik Design Intern Summer 2020</p>
+            </div>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="column2">
+
 
         <a href="houseScout.html" class="cardLink">
           <div class="card" id="houseScoutCard">
@@ -64,39 +84,40 @@
 
       </div>
 
-      <div class="column2">
-        <a href="nameonic.html" class="cardLink">
-          <div class="card" id="nameonicCard">
-            <img id="nameonicImage" src="images/nameonic/nameonicMockup.png" alt="nameonic App Design">
-                <div class="text">
-                  <p class="projectType">Mobile Design Challenge:</p>
-                  <p class="projectDescription">Helping Teachers Learn Student Names</p>
-                </div>
-          </div>
-        </a>
-
-      </div>
-
     </div>
 
 
 
     <div class="row2">
       <div class="column1">
+
+        <a href="nameonic.html" class="cardLink">
+          <div class="card" id="nameonicCard">
+            <img id="nameonicImage" src="images/nameonic/nameonic_update/nameonicThumbnailUpdate.png" alt="nameonic App Design">
+                <div class="text">
+                  <p class="projectType">Mobile Design Challenge:</p>
+                  <p class="projectDescription">Helping Teachers Learn Student Names</p>
+                </div>
+          </div>
+        </a>
+      </div>
+      <div class="column2">
+
         <a href="politico.html" class="cardLink">
           <div class="card" id="politicoCard">
-            <img id="politicoImage" src="images/politico/politicoThumbnail.png"
+            <img id="politicoImage" style="opacity:.75" src="images/politico/politicoThumbnail2.png"
             alt="Politico Case Study">
             <div class="text">
-              <p class="projectType">Mobile UX Case Study:</p>
-              <p class="projectDescription">Redesigning the POLITICO Android App</p>
+              <p class="projectType">UX Research Case Study:</p>
+              <p class="projectDescription">Improving the POLITICO Android App</p>
                 </div>
               </div>
         </a>
 
       </div>
-      <div class="column2">
-        <a href="cssart.html" class="cardLink">
+    </div>
+
+     <!-- <a href="cssart.html" class="cardLink">
 
             <div class="card" id="cssCard">
                <img id="cssArtImage" src="images/cssArt/cssHand.png" alt="CSS Art">
@@ -106,10 +127,8 @@
                 </div>
               </div>
 
-        </a>
+        </a> -->
 
-      </div>
-    </div>
     <!-- <div class="card" id="alarmCard">
         <a href="alarmaccountability.html"><img id="alarmAccountabilityImage" src=""
             alt="Alarm Accountability App Design"></a>
@@ -131,21 +150,26 @@
   <footer class="footer">
     <div class="socialIcons">
       <ul>
-        <li class="fontAwesome">
+        <li class="fontAwesome emailIcon">
           <a href="mailto:mys34@cornell.edu"><i class="far fa-envelope"></i></a>
         </li>
-        <li class="fontAwesome">
-          <a href="https://linkedin.com/in/matthew-suh" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+        <li class="fontAwesome linkedinIcon">
+          <a href="https://linkedin.com/in/matthew-suh" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-linkedin-in"></i></a>
         </li>
-        <li class="fontAwesome">
-          <a href="https://codepen.io/awesuhm/" target="_blank" rel="noopener noreferrer"><i class="fab fa-codepen"></i></a>
+        <li class="fontAwesome codepenIcon">
+          <a href="https://codepen.io/awesuhm/" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-codepen"></i></a>
         </li>
       </ul>
-      <div class="footerCredit">Designed and Coded by Me with frequent TFT breaks</div>
+  
+      <div class="footerContainer">
+        <div class="footerCredit">Hand coded on an Idobao Id80 with Gatetron Black Inks topped with KAT Milkshake
+        </div>
+      </div>
       <p>August 2020</p>
-
-
-
+  
+  
     </div>
   </footer>
 

@@ -10,7 +10,8 @@
   <script src="scripts/leftNavHouseScout"></script>
   <script src="https://kit.fontawesome.com/ed29159bc9.js"></script>
   <link rel="shortcut icon" type="image/png" href="images/favicon.png?">
-        <link href=" style/style.css" type="text/css" rel="stylesheet" />
+  <link href=" style/style.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/mhz6obu.css">
   <title>House Scout | Matthew Suh | Portfolio</title>
 </head>
 
@@ -25,16 +26,21 @@
             <span id="tooltipText">Rhymes with "Huh" or "Duh"</span></div></a></div>
       <ul class="rightAlign">
         <li class="navLink">
-          <a class="current" aria-current="page" href="index.html">Portfolio</a>
+          <a class="current" aria-current="page" href="index.html">Case Studies</a>
           <span class="highlight"></span>
           <span class="currentHighlight"></span>
+        </li>
+        <li class="navLink">
+          <a href="projects.html">Projects</a>
+          <span class="highlight"></span>
         </li>
         <li class="navLink">
           <a href="about.html">About</a>
           <span class="highlight"></span>
         </li>
         <li class="navLink">
-          <a href="files/Matthew Suh Resume 2020.pdf" target="_blank" rel="noopener noreferrer">Resumé</a> <span class="highlight"></span>
+          <a href="https://drive.google.com/file/d/1USmH0XrNoyfdpX6k0icLhdXujb66EI7C/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resumé</a> <span
+            class="highlight"></span>
         </li>
       </ul>
     </div>
@@ -124,7 +130,8 @@
     </div>
 
     <div class="imageContainer">
-      <img src="images/houseScout/persona.jpg" alt="Persona - Credit to Carrie (Jiarui) Hu for making the visual design">
+      <img src="images/houseScout/persona.jpg"
+        alt="Persona - Credit to Carrie (Jiarui) Hu for making the visual design">
       <caption>Credit to Carrie (Jiarui) Hu for creating the visual.</caption>
     </div>
     <div class="bodyText">
@@ -137,15 +144,22 @@
     </div>
 
     <div class="imageContainer">
-      <img src="images/houseScout/solutionSpace1.jpeg" alt="Existing Solution Space">
-      <caption>Existing Solution Space</caption>
+      <div class="imageGroupHorizontal2">
+        <img class="gridRight" src="images/houseScout/solutionSpace1.jpeg" alt="Existing Solution Space">
+        <img class="gridLeft" src="images/houseScout/solutionSpace2.jpg" alt="Evaluation of Solution Space">
+      </div>
+      <caption>Existing Solution Space and Evaluation</caption>
     </div>
-    <div class="imageContainer">
-      <img src="images/houseScout/solutionSpace2.jpg" alt="Evaluation of Solution Space">
-      <caption>Evaluation of Solution Space</caption>
 
-    </div>
     <div class="bodyText">
+      <p class="sectionEnd">From our research, we found out that while sites like <mark>Zillow or Craigslist worked very
+          well in big cities, they
+          could not meet the needs of Cornell students in particular.</mark> The majority of housing found on these
+        sites were
+        located in downtown Ithaca, whereas the majority of off-campus students live within a 5 minute walk to campus.
+        This area directly surrounding the campus is where our product aims to reach.
+      </p>
+
       <h4>Brainstorming</h4>
       <p>Following our analysis of the existing solution space, we began brainstorming various ideas for our product:
       </p>
@@ -180,13 +194,11 @@
       <p class="sectionEnd">
         <mark>Stand-In Tours</mark> was an idea that I thought would distinguish our app from other competitors.
         Since nearly all the people we interviewed placed a lot of importance on being able to tour and see the property
-        first, this feature
-        gives the opportunity to send someone else to tour in their place. While not perfect,
+        first, <mark>this feature
+          gives the opportunity to pay for someone else to tour in their place.</mark> While not perfect,
         it would still allow more insight than what could be gathered on the website alone.
 
       </p>
-
-
 
 
       <h3 id="sketches">Sketches</h3>
@@ -245,16 +257,16 @@
         </ul>
         We also received some positive feedback on features that the users liked:
         <ul>
-          <li>The matching ratio in the Housing Suggestions page is good to have, since it can give users a general idea
+          <li><mark>The matching ratio in the Housing Suggestions page is good to have,</mark> since it can give users a general idea
             about how much the housing option matches the user's preferences.</li>
-          <li>The Stand-In tour idea is great, but only after it's explained.</li>
+          <li><mark>The Stand-In tour idea is great,</mark> but only after it's explained.</li>
         </ul>
       </p>
     </div>
-    <div class="imageContainer sectionEnd">
+    <!-- <div class="imageContainer sectionEnd">
       <img src="images/houseScout/userTestingPic2.jpg" alt="User Feedback Session">
       <caption>User Testing Session</caption>
-    </div>
+    </div> -->
 
     <div class="bodyText">
 
@@ -301,17 +313,12 @@
 
     <div class="imageContainer">
       <div class="sideBySide">
-        <img src="images/houseScout/preferencesGif.gif" alt="Preferences Gif">
+        <img class="gridRight" src="images/houseScout/preferencesGif.gif" alt="Preferences Gif">
         <div class="gridText">
           <p>
-            <h4>Housing Preferences</h4>
-            <ul>
-              <li>When first opening the app, the user will be prompted to enter their housing preferences.</li>
-              <li>The recommended housing options are based off of these preferences.</li>
-              <li>Based on user feedback we divided preferences into 4 categories: Housing Type, Location, Move-In
-                Dates, and Amenities.</li>
-              <li>Each of the preferences were things that people found important based on our user interviews.</li>
-            </ul>
+            <h3 class="showcaseHeader">Housing Preferences</h3>
+            <p>When first opening the app, students are prompted to enter their housing preferences from which
+              recommended housing options are based off of.</p>
           </p>
         </div>
 
@@ -321,39 +328,26 @@
     <div class="imageContainer">
       <div class="sideBySide">
 
+        <img class="gridRight" src="images/houseScout/inPersonGif.gif" alt="In-Person Tour Gif">
         <div class="gridText">
           <p>
-            <h4>In-Person Tour</h4>
-            <ul>
-              <li>The user can schedule in-person tours with different housing offices from a single app.</li>
-              <li>After selecting a property, the user can select from available dates and times to go on a tour.</li>
-              <li>Based on user feedback we added a confirmation page to verify that the user had signed up for a tour.
-              </li>
-            </ul>
+            <h3 class="showcaseHeader">In-Person Tour</h3>
+            <p>Students can schedule in-person tours with different housing offices from a single app.</p>
           </p>
         </div>
 
-        <img src="images/houseScout/inPersonGif.gif" alt="In-Person Tour Gif">
 
       </div>
     </div>
 
-    <div class="imageContainer">
+    <div class="imageContainer sectionEnd">
       <div class="sideBySide">
-        <img src="images/houseScout/standInGif.gif" alt="Stand-In Tour Gif">
+        <img class="gridRight" src="images/houseScout/standInGif.gif" alt="Stand-In Tour Gif">
         <div class="gridText">
           <p>
-            <h4>Stand-In Tour</h4>
-            <ul>
-              <li>Users can hire someone else to tour various properties for them through a single app.</li>
-              <li>Lack of time to go on tours coupled with the necessity of tours motivated this feature.</li>
-              <li>Based on user feedback, we added a short description of what a "stand-in tour" is.</li>
-              <li>Added contact information for the stand-in based on additional feedback.</li>
-              <li>Users can specify if they want their stand-in to take pictures/videos or even FaceTime them during the
-                tour.</li>
-              <li>Users can also include specific questions that they want to ask the landlord, or specific things to
-                keep an eye out for.</li>
-            </ul>
+            <h3 class="showcaseHeader">Stand-In Tour</h3>
+            <p>Students can hire someone else to tour various properties for them through a single app with options to ask specific questions, 
+              take pictures, videos, or even FaceTime during the tour.</p>
           </p>
         </div>
 
@@ -376,11 +370,16 @@
     </div> -->
 
     <div class="bodyText">
-      <p>This was a group project for the class INFO 3450. My teammates were: <br> <a
-          href="https://www.jiarui-hu.com/">Carrie
-          (Jiarui) Hu,</a> Phyllisia Angelia, and Jackson Rong</p>
-      <p>We won an award for the <mark>Best Visual Design</mark> at the poster presentation at the end of the semester!
+      <h3 id="conclusion">Conclusion</h3>
+      <p>This was a group project for the class INFO 3450. My teammates were: <a
+          href="https://www.jiarui-hu.com/" target="_blank" rel="noopener noreferrer">Carrie
+          (Jiarui) Hu,</a> Phyllisia Angelia, and Jackson Rong. Together, we won an award for the <mark>Best Visual
+          Design</mark> during the poster presentation at the end of the semester!
       </p>
+      <p>Even though this was only a class project, I think that it could have a really significant impact on the
+        off-campus housing process if it were to be developed. I'm actually working with a team right now to try and
+        make it a reality. Currently it only addresses the subletting need, but check it out at <a
+          href="cornlet.com" target="_blank" rel="noopener noreferrer">cornlet.com</a>.</p>
     </div>
     <div class="imageContainer">
       <img src="images/houseScout/teamPic.jpg" alt="Picture of the Team">
@@ -400,15 +399,14 @@
       </li>
       <li class="spacer"><a href="houseScout.html#targetAudience" class="scrollTargetAudience">Target Audience</a>
       </li>
-      <li class="spacer"><a href="houseScout.html#userResearch"
-          class="scrollUserResearch">User Research</a></li>
+      <li class="spacer"><a href="houseScout.html#userResearch" class="scrollUserResearch">User Research</a></li>
       <li class="spacer"><a href="houseScout.html#persona" class="scrollPersona">Persona</a></li>
       <li class="spacer"><a href="houseScout.html#ideation" class="scrollIdeation">Ideation</a></li>
       <li class="spacer"><a href="houseScout.html#sketches" class="scrollSketches">Sketches</a></li>
       <li class="spacer"><a href="houseScout.html#paperPrototype" class="scrollPaperPrototype">Paper Prototype</a></li>
       <li class="spacer"><a href="houseScout.html#midfi" class="scrollMidFi">Mid-Fidelity Prototype</a></li>
       <li class="spacer"><a href="houseScout.html#highfi" class="scrollHighFi">High-Fidelity Prototype</a></li>
-      <li class="spacer"><a href="houseScout.html#interactive" class="scrollInteractive">Interactive Prototype</a></li>
+      <li class="spacer"><a href="houseScout.html#conclusion" class="scrollConclusion">Conclusion</a></li>
       <!-- <button onclick="showMoreLess()" id="showMoreLessButton">Show Navigation</button> -->
 
     </ul>
@@ -430,19 +428,22 @@
 
 <ul class="bottomGrid">
   <li class="bottomNav">
-    <a class="unselected" href="index.html">Portfolio Home</a>
+    <a class="unselected" href="index.html">All Case Studies</a>
+  </li>
+  <li class="bottomNav colorFont">
+    <a class="unselected" href="metrik-internship.html">Metrik Internship</a>
   </li>
   <li class="bottomNav colorFont">
     <a class="selected" href="houseScout.html">HouseScout</a>
   </li>
   <li class="bottomNav">
-    <a class="unselected" href=nameonic.html>nameonic</a>
+    <a class="unselected" href=nameonic.html>Nameonic</a>
   </li>
   <li class="bottomNav">
     <a class="unselected" href="politico.html">Politico Case Study</a>
   </li>
   <li class="bottomNav">
-    <a class="unselected" href="cssart.html">CSS Art</a>
+    <a class="unselected" href="projects.html">Projects</a>
   </li>
 </ul>
 
@@ -453,18 +454,24 @@
 <footer class="footer">
   <div class="socialIcons">
     <ul>
-      <li class="fontAwesome">
+      <li class="fontAwesome emailIcon">
         <a href="mailto:mys34@cornell.edu"><i class="far fa-envelope"></i></a>
       </li>
-      <li class="fontAwesome">
-        <a href="https://linkedin.com/in/matthew-suh" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+      <li class="fontAwesome linkedinIcon">
+        <a href="https://linkedin.com/in/matthew-suh" target="_blank" rel="noopener noreferrer"><i
+            class="fab fa-linkedin-in"></i></a>
       </li>
-      <li class="fontAwesome">
-        <a href="https://codepen.io/awesuhm/" target="_blank" rel="noopener noreferrer"><i class="fab fa-codepen"></i></a>
+      <li class="fontAwesome codepenIcon">
+        <a href="https://codepen.io/awesuhm/" target="_blank" rel="noopener noreferrer"><i
+            class="fab fa-codepen"></i></a>
       </li>
     </ul>
-    <div class="footerCredit">Designed and Coded by Me with frequent DotA2 and SSBU breaks</div>
-    <p>February 2020</p>
+
+    <div class="footerContainer">
+      <div class="footerCredit">Hand coded on an Idobao Id80 with Gatetron Black Inks topped with KAT Milkshake
+      </div>
+    </div>
+    <p>August 2020</p>
 
 
   </div>
