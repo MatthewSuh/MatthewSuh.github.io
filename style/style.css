@@ -394,6 +394,27 @@ hr {
 
 }
 
+.bulletColumn2{
+    columns:2;
+    padding-left:0;
+    column-gap:30px;
+    list-style:none;
+    /* text-align:center; */
+}
+
+.bulletColumn3{
+    columns:3;
+    /* width:100%; */
+    padding-left:0;
+    column-gap:15px;
+    list-style:none;
+}
+
+.horizontalFlex{
+    display:flex;
+    flex-direction:row;
+}
+
 .video {
     width: 250px;
     margin: 15px 0 25px 0;
