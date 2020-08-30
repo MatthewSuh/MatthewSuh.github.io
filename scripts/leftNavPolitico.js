@@ -8,9 +8,9 @@ $(document).ready(function(){
         var $offsetPersonas = (($("#personas").offset().top).toFixed()-350);
         var $offsetPoliticoResearch = (($("#politicoResearch").offset().top).toFixed()-250);
         var $offsetRedesign = (($("#redesign").offset().top).toFixed()-250);
-        var $offsetSketches = (($("#sketches").offset().top).toFixed()-250);
-        var $offsetWireframe = (($("#wireframe").offset().top).toFixed()-250);
-        var $offsetConclusion = (($("#conclusion").offset().top).toFixed()-250);
+        // var $offsetSketches = (($("#sketches").offset().top).toFixed()-250);
+        // var $offsetWireframe = (($("#wireframe").offset().top).toFixed()-250);
+        var $offsetConclusion = (($("#conclusion").offset().top).toFixed()-450);
        
         
         if(($height >= ($offsetBackground)) && ($height < $offsetAnalysis)) {
@@ -47,7 +47,7 @@ $(document).ready(function(){
             $('.scrollPoliticoResearch').removeClass('active');
         }
 
-        if(($height >= $offsetRedesign) && ($height < $offsetSketches)){
+        if(($height >= $offsetRedesign) && ($height < $offsetConclusion)){
             $('.scrollRedesignFocus').addClass('active');
 
         }
@@ -55,19 +55,19 @@ $(document).ready(function(){
             $('.scrollRedesignFocus').removeClass('active');
         }
 
-        if(($height >= $offsetSketches) && ($height < $offsetWireframe)){
-            $('.scrollSketches').addClass('active');
-        }
-        else{
-            $('.scrollSketches').removeClass('active');
-        }
+        // if(($height >= $offsetSketches) && ($height < $offsetWireframe)){
+        //     $('.scrollSketches').addClass('active');
+        // }
+        // else{
+        //     $('.scrollSketches').removeClass('active');
+        // }
 
-        if(($height >= $offsetWireframe) && ($height < $offsetConclusion)){
-            $('.scrollWireframe').addClass('active');
-        }
-        else{
-            $('.scrollWireframe').removeClass('active');
-        }
+        // if(($height >= $offsetWireframe) && ($height < $offsetConclusion)){
+        //     $('.scrollWireframe').addClass('active');
+        // }
+        // else{
+        //     $('.scrollWireframe').removeClass('active');
+        // }
 
         if(($height >= $offsetConclusion)){
             $('.scrollConclusion').addClass('active');

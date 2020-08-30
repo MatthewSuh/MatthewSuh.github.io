@@ -11,7 +11,7 @@ $(document).ready(function(){
         var $offsetPaperPrototype = (($("#paperPrototype").offset().top).toFixed()-250);
         var $offsetMidFi = (($("#midfi").offset().top).toFixed()-250);
         var $offsetHighFi = (($("#highfi").offset().top).toFixed()-250);
-        var $offsetInteractive = (($("#interactive").offset().top).toFixed()-250);
+        var $offsetConclusion = (($("#conclusion").offset().top).toFixed()-250);
 
        
         
@@ -70,18 +70,18 @@ $(document).ready(function(){
             $('.scrollMidFi').removeClass('active');
         }
 
-        if(($height >= $offsetHighFi && ($height < $offsetInteractive))){
+        if(($height >= $offsetHighFi && ($height < $offsetConclusion))){
             $('.scrollHighFi').addClass('active');
         }
         else{
             $('.scrollHighFi').removeClass('active');
         }
 
-        if(($height >= $offsetInteractive)){
-            $('.scrollInteractive').addClass('active');
+        if(($height >= $offsetConclusion)){
+            $('.scrollConclusion').addClass('active');
         }
         else{
-            $('.scrollInteractive').removeClass('active');
+            $('.scrollConclusion').removeClass('active');
         }
     });
 });
