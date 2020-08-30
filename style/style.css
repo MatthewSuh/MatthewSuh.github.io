@@ -1148,6 +1148,10 @@ footer p {
         /* align-self:center; */
     }
 
+    .footerContainer{
+        width:80%;
+    }
+
 }
 
 /* ^^^^ Mobile Media Query ^^^^ */
@@ -1316,7 +1320,6 @@ footer p {
     display:flex;
     flex-direction:column;
     align-items:center;
-
 }
 
 .thockContainer{
