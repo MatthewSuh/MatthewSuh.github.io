@@ -218,8 +218,8 @@ nav a {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .column1 {
